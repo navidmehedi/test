@@ -1,0 +1,122 @@
+/*font links start*/
+
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face{
+	font-family: OpenSans-SemiBold;
+	src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+@font-face{
+	font-family: OpenSans-Bold;
+	src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face{
+	font-family: OpenSans-BoldItalic;
+	src: url(../fonts/OpenSans-BoldItalic.ttf);
+}
+@font-face{
+	font-family: OpenSans-ExtraBoldItalic;
+	src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+}
+@font-face{
+	font-family: OpenSans-ExtraBold;
+	src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+/*font links end*/
+
+/*common start*/
+body{
+	font-family: OpenSans-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #54524f;
+
+}
+/*common end*/
+/*header start*/
+header{
+	
+}
+.c_nav{
+    /*margin: 0 -165px;*/
+    padding-top: 20px;
+}
+.logo{}
+.menu ul li a {
+    font-family: OpenSans-Bold;
+    font-weight: 700;
+    padding: 0px 25px !important;
+    letter-spacing: 5px;
+    color: #54524f;
+    transition: .3s;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important ;
+}
+.sr_bar{
+	/*margin-left: 70px;*/
+	border: none;
+	border-radius: 24px;
+	background-color: #c3bfbc
+
+}
+.s_bar{
+    background-color: #c3bfbc;
+    border: none;
+    border-radius: 3.25rem;
+}
+.s_bar:focus {
+    color: #fff;
+    background-color: #c3bfbc;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.icon i {
+    font-size: 20px;
+    margin: 10px -45px;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	min-height: 110vh;
+	width: 100%;
+	background-image: url(../images/hikinig-1.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.b_item{
+	padding-top: 230px;
+}
+.b_h1 h1{
+	font-family: OpenSans-ExtraBold;
+	font-size: 90px;
+	font-weight: 800;
+	color: #deb37e;
+}
+.b_h2{
+	font-family: OpenSans-BoldItalic;
+	font-weight: 700;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.b_btn{
+	width: 170px;
+    height: auto;
+	font-family: OpenSans-ExtraBold;
+	font-weight: 800;
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 40px;
+}
+.b_submit{
+	font-size: 20px;
+	color: #776c64;
+}
+.b_text{}
+/*banner end
